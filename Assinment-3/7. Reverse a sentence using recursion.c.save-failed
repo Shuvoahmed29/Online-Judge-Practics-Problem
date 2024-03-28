@@ -1,0 +1,25 @@
+/*7. Reverse a sentence using recursion.*/
+
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+int main()
+{
+    char A[30];
+
+    printf("Enter any Sentence : ");
+    gets(A);
+
+    display(A[30]);
+
+
+    getch();
+}
+
+void display(char A[30])
+{
+    int len = strlen(A);
+    printf("%d",len);
+
+
+}

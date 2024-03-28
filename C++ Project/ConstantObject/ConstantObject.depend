@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1591794893 source:c:\users\smart\documents\c++ project\constantobject\constantclass.cpp
+	<iostream>
+	"constantclass.h"
+
+1591794893 c:\users\smart\documents\c++ project\constantobject\constantclass.h
+
+1591794943 source:c:\users\smart\documents\c++ project\constantobject\main.cpp
+	<iostream>
+	"constantclass.h"
+

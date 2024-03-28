@@ -1,0 +1,31 @@
+#include<stdio.h>
+int main()
+{
+    int row,col,n,space;
+    printf("Enter the row number: ");
+    scanf("%d",&n);
+    for(row=1;row<=n;row++)
+    {
+        for(space=1;space<=(n-row);space++)
+        {
+            printf(" ");
+        }
+        for(col=1;col<=row;col++)
+        {
+            printf("%d ",row);
+        }
+        printf("\n");
+    }
+        for(row=n-1;row>=1;row--)
+    {
+        for(space=1;space<=(n-row);space++)
+        {
+            printf(" ");
+        }
+        for(col=1;col<=row;col++)
+        {
+            printf("%d ",row);
+        }
+        printf("\n");
+    }
+}

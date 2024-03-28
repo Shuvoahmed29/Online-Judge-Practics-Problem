@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1591713870 source:c:\users\smart\documents\c++ project\sectionproject\sectionclass.cpp
+	<iostream>
+	"sectionclass.h"
+
+1591713919 c:\users\smart\documents\c++ project\sectionproject\sectionclass.h
+
+1591713897 source:c:\users\smart\documents\c++ project\sectionproject\main.cpp
+	<iostream>
+	"sectionclass.h"
+
