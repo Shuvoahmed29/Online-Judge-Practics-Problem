@@ -17,10 +17,5 @@ int main(){
 			else cout << hh-12;
 			cout << str << " PM\n";
 		}
-		else {
-			if(hh<10) cout << 0 << hh;
-			else cout << hh;
-			cout << str << " AM\n";
-		}
 	}
 }
